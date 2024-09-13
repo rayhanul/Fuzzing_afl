@@ -1,4 +1,4 @@
-#Install american fuzzy lop (afl): http://lcamtuf.coredump.cx/afl/
+# Install american fuzzy lop (afl): http://lcamtuf.coredump.cx/afl/
 - Download afl.
 - Read QuickStartGuide in the doc folder
 
