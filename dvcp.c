@@ -1,8 +1,4 @@
-/*
-Author: Hardik Shah
-Email: hardik05@gmail.com
-Web: http://hardik05.wordpress.com
-*/
+
 
 //a vulnerable c program to explain common vulnerability types
 //fuzz with AFL
