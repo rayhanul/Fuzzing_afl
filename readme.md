@@ -28,7 +28,7 @@ Compile : ./afl-gcc ../example/dvcp.c -o dvcp
 -fsanitize is used to enable various sanitizers, here I used address and undefined that explicitly tells to detect buffer overflow, use after free and undefined behavior respectively. Some other options for -fsanitizer are thread, memory, leak.  -->
 
 
-- Run command using format: `afl-fuzz -i input_directory -o output_directory -- object_name @@`. For example: `afl-fuzz -i ../example/input_example -o output -- ./dvcp @@` for fuzzing your program, where 
+- Run command using format: `./afl-fuzz -i input_directory -o output_directory -- object_name @@`. For example: `./afl-fuzz -i ../example/input_example -o output -- ./dvcp @@` for fuzzing your program, where 
     - i specifices input directory for initial test case. 
     - o means output directory where AFL stores crashes, testcases and other results of the fuzzing. 
     - @@ refers program takes input from a file. 
