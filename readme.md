@@ -11,9 +11,10 @@ Compile : ./afl-gcc ../example/dvcp.c -o dvcp
 ./afl-fuzz -i ../example/input_example/ -o output -- ./dvcp @@ -->
 
 # Installing american fuzzy lop (AFL) 
-- Download AFL source code from http://lcamtuf.coredump.cx/afl/
-- Transfer your file to VM using command `scp source destination`, for example I transfered our file using command `scp afl-latest.tgz rayhan@137.99.252.45:/opt/afl/`. Change rayhan by your username. 
-
+- Download AFL source code from http://lcamtuf.coredump.cx/afl/ in your local computer. 
+- Connect to VM using command `ssh username@ip_address` in a terminal. For example, `rayhan@137.99.252.45`. 
+- Transfer your file to VM using command `scp source destination`. In order to transfer, open a new terminal and run command `scp afl-latest.tgz rayhan@137.99.252.45:/opt/afl/`. Change rayhan by your username. 
+- Go back to the terminal that is connected to server, and navigate to `opt` folder using command `cd /opt/afl`, you are now able to view your transferred files using command `ls`. 
 - If it is zip file, unzip it using command `tar zxvf filename.tgz`. For example, `tar zxvf afl-latest.tgz` and it will create a folder named: afl-2.52b
 
 - Navigate to your afl folder using command: `cd afl-2.52b`  
