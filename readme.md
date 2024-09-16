@@ -31,7 +31,10 @@ Compile : ./afl-gcc ../example/dvcp.c -o dvcp
 
 - Transfer dvcp.c file to the example folder using command `scp dvcp.c rayhan@137.99.252.45:/opt/afl/example` (This is a another terminal other than the terminal that is connected to VM. You can work on the same terminal through screening terminal, but for simplicity, open a new terminal at the folder that contains dvcp.c file). 
 
+- Run command `ls` to view dvcp.c in the VM. 
+
 - Crete another folder for the input as `mkdir input_example`. 
+
 - Transfer the content of input folder from Git repo to the `/opt/afl/input_example` using command: `scp image.img rayhan@137.99.252.45:/opt/afl/example/input_example`
 
 # Fuzzing any c program using AFL: 
