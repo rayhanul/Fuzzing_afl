@@ -5,7 +5,7 @@
 - This will build AFL on your system. For more details, please visit: https://afl-1.readthedocs.io/en/latest/quick_start.html 
 
 
-# Running AFL on any c program: 
+# Fuzzing any c program using AFL: 
 - Compile your program using command format: `afl-gcc your_program -o object_name`. For example, your can use this command `afl-gcc dvcp.c -o dvcp`, to compile dvcp.c file for fuzzing. 
 
 <!-- where
