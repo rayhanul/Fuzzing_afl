@@ -35,7 +35,7 @@ Compile : ./afl-gcc ../example/dvcp.c -o dvcp
 
 - Crete another folder for the input as `mkdir input_example`. 
 
-- Transfer the content of input folder from Git repo to the `/opt/afl/input_example` using command: `scp image.img rayhan@137.99.252.45:/opt/afl/example/input_example`
+- Transfer the content of input folder from Git repo to the `/opt/afl/example/input_example` using command: `scp image.img rayhan@137.99.252.45:/opt/afl/example/input_example`
 
 # Fuzzing any c program using AFL: 
 - Compile your program using command format: `./afl-gcc your_program -o object_name`. For example, your can use this command `./afl-gcc ../example/dvcp.c -o dvcp`, to compile dvcp.c file for fuzzing. 
