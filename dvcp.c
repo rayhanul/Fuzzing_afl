@@ -1,4 +1,6 @@
-
+/*
+Author: Hardik Shah
+*/
 
 //a vulnerable c program to explain common vulnerability types
 //fuzz with AFL
