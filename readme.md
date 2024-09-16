@@ -25,7 +25,7 @@ Compile : ./afl-gcc ../example/dvcp.c -o dvcp
 
 - Run command command `make` insider of your afl folder, and it will build afl on your system, for more details: https://afl-1.readthedocs.io/en/latest/quick_start.html 
 
-# Transfering input files 
+# Transfering vulnerable C program and input files 
 
 - Similarly, create another folder inside of `/opt/afl` directory using command `mkdir example`. Navigate to inside of example directory using command `cd example`. 
 
