@@ -13,9 +13,9 @@
 
 
 - Run command using format: `afl-fuzz -i input_directory -o output_directory -- object_name @@`. For example: `afl-fuzz -i input -o output -- ./dvcp @@` for fuzzing your program, where 
-    -i specifices input directory for initial test case. 
-    -o means output directory where AFL stores crashes, testcases and other results of the fuzzing. 
-    - @@ refers to reading from file. 
+    - i specifices input directory for initial test case. 
+    - o means output directory where AFL stores crashes, testcases and other results of the fuzzing. 
+    - @@ refers program takes input from a file. 
 
 Now, you should be able to see AFL fuzzing running on your program similar to the screenshot.
 
